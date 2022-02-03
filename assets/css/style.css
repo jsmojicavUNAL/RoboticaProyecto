@@ -94,7 +94,7 @@ ul.c3 {
     transition: all 0.5s;
     z-index: 997;
     transition: all 0.5s;
-    background: linear-gradient( rgba(2, 3, 61, 0.5), rgba(2, 3, 61, 0.5)), url("../img/fresas-navbar.jpg");
+    background: linear-gradient( rgba(2, 3, 61, 0.5), rgba(2, 3, 61, 0.5)), url("../img/Background.png");
     opacity: 1;
 }
 
@@ -103,7 +103,7 @@ ul.c3 {
 }
 
 #header.header-scrolled {
-    background-image: linear-gradient( rgba(2, 3, 61, 0.5), rgba(2, 3, 61, 0.5)), url("../img/fresas-navbar.jpg");
+    background-image: linear-gradient( rgba(2, 3, 61, 0.5), rgba(2, 3, 61, 0.5)), url("../img/Background.png");
     opacity: 0.95;
     height: 60px;
 }
@@ -370,7 +370,7 @@ ul.c3 {
     top: 0;
     width: 130%;
     height: 95%;
-    background: linear-gradient(to right, rgba(30, 86, 60, 0.8), rgba(30, 67, 86, 0.6)), url("../img/Logo-lemon-icon.png") center top no-repeat;
+    background: linear-gradient(to right, rgba(30, 86, 60, 0.8), rgba(30, 67, 86, 0.6)), url("../img/robot-abb.png") center top no-repeat;
     z-index: 0;
     border-radius: 0 0 50% 50%;
     transform: translateX(-50%) rotate(0deg);
