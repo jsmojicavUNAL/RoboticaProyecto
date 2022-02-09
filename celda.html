@@ -106,10 +106,10 @@
                                     <div class="icon-box">
 
                                         <h4 class="title">ABB IRB6700</h4>
-                                        <p>La aplicacion deseada requiere de dos factores importantes, un buen alcance horizontal y una capacidad de carga relativamente alta, ya que se requiere manipular ruedas de automovil, las cuales pesan al rededor de
-                                            25-30 kg para automoviles convencionales hasta 50kg para camionetas y camiones.</p>
+                                        <p>La aplicación deseada requiere de dos factores importantes, un buen alcance horizontal y una capacidad de carga relativamente alta, ya que se requiere manipular ruedas de automóvil, las cuales pesan al rededor de
+                                            25-30 kg para automóviles convencionales hasta 50kg para camionetas y camiones.</p>
 
-                                        <p>Por otro lado, debido a al configuracion de la celda, se requiere un amplio alcance horizontal, al rededor de 2m. Se llegó a este valor luego de realizar un montaje inicial de modelos CAD. </p>
+                                        <p>Por otro lado, debido a al configuración de la celda, se requiere un amplio alcance horizontal, al rededor de 2m. Se llegó a este valor luego de realizar un montaje inicial de modelos CAD. </p>
                                         <p>Por las razones anteriores, se optó por un manipulador ABB IRB 6700, el cual tiene un alcance horizontal de 2.6m y una capacidad de carga de 200 kg. </p>
 
                                         </ul>
@@ -143,10 +143,27 @@
                                 </div>
                             </div>
                         </section>
+
+                        <section class="why-us aos-init aos-animate" data-aos="fade-up" date-aos-delay="200">
+                            <div class="container">
+                                <h4 class="title">Lógica Estación</h4>
+                                <p align="justify">La lógica de la estación consiste de dos componentes inteligentes y un controlador. Como entrada de este ultimo, se tiene una señal proveniente desde la celda donde se generan las ruedas de los carros. Como salidas del
+                                    controlador, se tienen las señales para activar y desactivar la ventosa en el robot, reactivar el conveyor y activar la ventosa en el carro. El componente Inteligente Celda Rueda tiene como entradas las señales para
+                                    activar y desactivar la ventosa del robot y una señal de verificación que indica si hay presente un carro listo para ponerle las ruedas. El componente inteligente Celda Carro tiene como entradas las señales para activar
+                                    la ventosa en el carro y la de reactivar el conveyor provenientes desde el controlador, y como salida tiene una señal que le indica al componente Celda Rueda si hay un carro presente. </p>
+                                <img center="" src="assets/img/LogicaEstacion.png" class="img-fluid" alt="">
+
+                                <h2 class="title">Lógica Celda Carro</h2>
+                                <p>Se usaron principalmente dos modelos CADs. Uno de el vehiculo al cual se le ensamblarán las ruedas y otro modelo CAD para las mismas.</p>
+                                <img center="" src="assets/img/CeldaCarro.png" class="img-fluid" alt="">
+
+                            </div>
+                        </section>
+
                         <section class="why-us aos-init aos-animate" data-aos="fade-up" date-aos-delay="200">
                             <div class="container">
                                 <h4 class="title">Celda en RobotStudio</h4>
-                                <p>Se llega a la siguiente configuración para la celda robótica en RobotStudio, compuesta por 2 bandas transportadoras, una para los vehiculos y la otra alimenta al robot de ruedas, los modelos CAD previamente mencionados
+                                <p align="justify">Se llega a la siguiente configuración para la celda robótica en RobotStudio, compuesta por 2 bandas transportadoras, una para los vehiculos y la otra alimenta al robot de ruedas, los modelos CAD previamente mencionados
                                     y el ABB IRB-6700. Tambien se tienen en cuenta las barreras de protección.</p>
                                 <img center="" src="assets/img/Celda.png" class="img-fluid" alt="">
 
